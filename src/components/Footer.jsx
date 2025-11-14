@@ -1,47 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Footer.css';
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-  const [isSubscribed, setIsSubscribed] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (email) {
-      console.log('Subscribed with:', email);
-      setIsSubscribed(true);
-      setEmail('');
-      // Reset subscription message after 3 seconds
-      setTimeout(() => setIsSubscribed(false), 3000);
-    }
-  };
-
   return (
     <footer className="footer">
-      {/* Newsletter Section */}
-      <div className="newsletter-section">
-        <div className="newsletter-content">
-          <h3>Subscribe to Our Newsletter</h3>
-          <p>Get the latest updates on new products and upcoming sales</p>
-          <form onSubmit={handleSubmit} className="newsletter-form">
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Your email address"
-              required
-            />
-            <button type="submit">Subscribe</button>
-          </form>
-          {isSubscribed && (
-            <div className="subscription-success">
-              Thank you for subscribing!
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* Main Footer Content */}
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
@@ -69,7 +31,25 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Customer Service</h4>
             <ul className="footer-links">
-              <li><a href="/contact">Contact Us</a></li>
+              <li>
+                <span>
+                  <a
+                    href="mailto:info@fashionhub.com"
+                    className="email-link-main"
+                  >
+                    Contact Us
+                  </a>
+                  <span className="email-separator"> · </span>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fashionhub.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="email-link-gmail"
+                  >
+                    Gmail
+                  </a>
+                </span>
+              </li>
               <li><a href="/faq">FAQs</a></li>
               <li><a href="/shipping">Shipping & Returns</a></li>
               <li><a href="/size-guide">Size Guide</a></li>
@@ -82,7 +62,23 @@ const Footer = () => {
             <ul className="contact-info">
               <li><i className="fas fa-map-marker-alt"></i> <span>123 Fashion St, Style City</span></li>
               <li><i className="fas fa-phone"></i> <span>+1 234 567 890</span></li>
-              <li><i className="fas fa-envelope"></i> <span>info@fashionhub.com</span></li>
+              <li>
+                <i className="fas fa-envelope"></i>{' '}
+                <span>
+                  <a href="mailto:info@fashionhub.com" className="email-link-main">
+                    info@fashionhub.com
+                  </a>
+                  <span className="email-separator"> · </span>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=info@fashionhub.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="email-link-gmail"
+                  >
+                    Gmail
+                  </a>
+                </span>
+              </li>
               <li><i className="fas fa-clock"></i> <span>Mon-Sat: 9:00 - 18:00</span></li>
             </ul>
           </div>

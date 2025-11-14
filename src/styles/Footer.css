@@ -34,6 +34,29 @@
   font-size: 0.95rem;
 }
 
+.contact-info li {
+  margin-bottom: 8px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.email-link-main,
+.email-link-gmail {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.email-link-main:hover,
+.email-link-gmail:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.email-separator {
+  margin: 0 4px;
+  color: #555;
+}
+
 .footer-section h4 {
   color: #ffffff;
   font-size: 1.1rem;

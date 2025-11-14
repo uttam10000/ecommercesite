@@ -1,13 +1,21 @@
 /* Newsletter Styles */
 .newsletter {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white;
+  color: #ffffff;
   padding: 80px 20px;
   text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.newsletter * {
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
 }
 
 .newsletter-content {
@@ -43,6 +51,7 @@
   border: none;
   font-size: 1rem;
   outline: none;
+  color: #333333; /* Dark text for better contrast in input */
 }
 
 .newsletter-form button {
