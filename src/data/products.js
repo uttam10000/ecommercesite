@@ -5,11 +5,11 @@ const products = [
     name: 'Quilted Puffer Jacket',
     price: 129.99,
     salePrice: 99.99,
-    image: 'https://images.unsplash.com/photo-1551028719-00167d1e1beb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    image: "https://img.drz.lazcdn.com/static/np/p/46f4e1109c937a194a1a7fdd30465647.jpg_720x720q80.jpg",
     images: [
-      'https://images.unsplash.com/photo-1551028719-00167d1e1beb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1551028719-00167d1e1beb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1551028719-00167d1e1beb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+      'https://img.drz.lazcdn.com/static/np/p/46f4e1109c937a194a1a7fdd30465647.jpg_720x720q80.jpg',
+      'https://img.drz.lazcdn.com/static/np/p/46f4e1109c937a194a1a7fdd30465647.jpg_720x720q80.jpg',
+      'https://img.drz.lazcdn.com/static/np/p/46f4e1109c937a194a1a7fdd30465647.jpg_720x720q80.jpg'
     ],
     category: 'Outerwear',
     colors: ['Black', 'Beige', 'Olive'],
@@ -26,11 +26,11 @@ const products = [
     name: 'Wool Blend Coat',
     price: 249.99,
     salePrice: 199.99,
-    image: 'https://images.unsplash.com/photo-1539533018447-63fcce2678e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    image: 'https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/808285s.jpg?im=Resize,width=750',
     images: [
-      'https://images.unsplash.com/photo-1539533018447-63fcce2678e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1539533018447-63fcce2678e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1539533018447-63fcce2678e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+      'https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/808285s.jpg?im=Resize,width=750',
+      'https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/808285s.jpg?im=Resize,width=750',
+      'https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/808285s.jpg?im=Resize,width=750'
     ],
     category: 'Coats',
     colors: ['Camel', 'Black', 'Gray'],
@@ -83,11 +83,11 @@ const products = [
     id: 5,
     name: 'Slim Fit Chinos',
     price: 59.99,
-    image: 'https://images.unsplash.com/photo-1542272604-3f65ffb0c465?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    image: 'https://www.uniqlo.com/jp/ja/contents/feature/masterpiece/common/au/img/product/item_22_kv.jpg?240112',
     images: [
-      'https://images.unsplash.com/photo-1542272604-3f65ffb0c465?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1542272604-3f65ffb0c465?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1542272604-3f65ffb0c465?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+      'https://www.uniqlo.com/jp/ja/contents/feature/masterpiece/common/au/img/product/item_22_kv.jpg?240112',
+      'https://www.uniqlo.com/jp/ja/contents/feature/masterpiece/common/au/img/product/item_22_kv.jpg?240112',
+      'https://www.uniqlo.com/jp/ja/contents/feature/masterpiece/common/au/img/product/item_22_kv.jpg?240112'
     ],
     category: 'Pants',
     colors: ['Khaki', 'Navy', 'Black', 'Olive'],
@@ -123,11 +123,11 @@ const products = [
     name: 'Leather Crossbody Bag',
     price: 159.99,
     salePrice: 129.99,
-    image: 'https://images.unsplash.com/photo-1556302011-78b3d3457610?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    image: 'https://store.mattmathews.com/cdn/shop/files/LEATHERCROSSBODYMATT3.jpg?v=1714499584&width=720',
     images: [
-      'https://images.unsplash.com/photo-1556302011-78b3d3457610?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1556302011-78b3d3457610?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
-      'https://images.unsplash.com/photo-1556302011-78b3d3457610?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+      'https://store.mattmathews.com/cdn/shop/files/LEATHERCROSSBODYMATT3.jpg?v=1714499584&width=720',
+      'https://store.mattmathews.com/cdn/shop/files/LEATHERCROSSBODYMATT3.jpg?v=1714499584&width=720',
+      'https://store.mattmathews.com/cdn/shop/files/LEATHERCROSSBODYMATT3.jpg?v=1714499584&width=720'
     ],
     category: 'Bags',
     colors: ['Black', 'Cognac', 'Burgundy'],
@@ -161,9 +161,9 @@ const products = [
     id: 9,
     name: 'Linen Summer Shirt',
     price: 49.99,
-    image: 'https://images.unsplash.com/photo-1528701800489-20be3c30c1d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    image: 'https://antoniosclothing.com/cdn/shop/files/S242a80d0455246759f5b24ea60e27ad21.webp?v=1741020314&width=1624',
     images: [
-      'https://images.unsplash.com/photo-1528701800489-20be3c30c1d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80'
+      'https://antoniosclothing.com/cdn/shop/files/S242a80d0455246759f5b24ea60e27ad21.webp?v=1741020314&width=1624'
     ],
     category: 'Shirts',
     colors: ['White', 'Light Blue'],
