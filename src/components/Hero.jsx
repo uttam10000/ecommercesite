@@ -27,7 +27,7 @@ const Hero = () => {
     >
       <div className="container">
         <div className="hero-content">
-          <h1 className="fade-in">Summer Collection 2023</h1>
+          <h1 className="fade-in">Summer Collection 2025</h1>
           <p className="fade-in" style={{ animationDelay: '0.2s' }}>Discover the latest trends in fashion</p>
           <button 
             className="shop-now-btn fade-in" 

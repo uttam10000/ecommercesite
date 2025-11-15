@@ -20,10 +20,13 @@ const getFilteredProducts = (products, filter) => {
   }
 };
 
-const ProductsGrid = () => {
+const ProductsGrid = ({ products: propProducts }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const [activeFilter, setActiveFilter] = useState('all');
+  
+  // Use products from props if provided, otherwise use the imported products
+  const allProducts = propProducts || products;
   
   useEffect(() => {
     // Set active filter based on current route
@@ -41,7 +44,7 @@ const ProductsGrid = () => {
 
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);
-    switch (filter) {
+    switch(filter) {
       case 'new':
         navigate('/new-arrivals');
         break;
@@ -51,15 +54,12 @@ const ProductsGrid = () => {
       case 'bestseller':
         navigate('/bestsellers');
         break;
-      case 'all':
       default:
-        // Go back to the main shop view but via React Router (SPA)
         navigate('/');
-        break;
     }
   };
   
-  const filteredProducts = getFilteredProducts(products, activeFilter);
+  const filteredProducts = getFilteredProducts(allProducts, activeFilter);
 
   return (
     <section className="products-section" id="shop">
